@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 240, 250);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.loading-message {
+    font-size: 18px;
+    color: #333;
+}
+
+.app {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #4caf50; /* Зеленый цвет */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #45a049; /* Зеленый цвет при наведении курсора */
+}
+
+.delete-button {
+    background-color: #f44336; /* Красный цвет */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Красный цвет при наведении курсора */
+}
+
+.button-container,
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.signout {
+    border: 1.5px solid rgb(255, 175, 163);
+    background-color: rgb(255, 175, 163) !important;
+    color: rgb(50, 50, 50);
+}
+
+.signout:hover {
+    background-color: rgb(175, 94, 94) !important;
+    border: 1.5px solid rgb(175, 94, 94);
+}
+
+.signout:active {
+    border: 1.5px solid rgb(175, 81, 81) !important;
+    background-color: rgb(175, 81, 81) !important;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    margin: 11px 0;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1.5px solid rgb(230, 230, 230);
+}
+
+/* List Header */
+
+.list-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
+}
+
+/* Auth */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.auth-container-box {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.auth-container-box form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+}
+
+.auth-options {
+    display: flex;
+}
+
+.auth-options button {
+    width: 50%;
+    border: none;
+    padding: 10px;
+    color: rgb(50, 50, 50);
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 10px;
+    color: rgb(110, 110, 140);
+}
+
+.user-email {
+    float: right;
+    font-size: 13px;
+    margin: 10px;
+    color: rgb(110, 110, 140);
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
